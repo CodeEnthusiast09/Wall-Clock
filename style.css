@@ -24,6 +24,8 @@ body {
   box-shadow: -5px 5px 8px #3b3b3b;
   position: relative;
 }
+
+/* Indicators */
 .points > div {
   width: 10px;
   height: 10px;
@@ -90,6 +92,8 @@ body {
   background: #000;
   z-index: 999;
 }
+
+/* The Hands Of The Clock */
 .hand {
   width: 25%;
   height: 10px;
