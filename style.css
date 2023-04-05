@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 128, 255);
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px 10px 10px 10px;
+  background: #636363;
+  box-shadow: 6px 6px 20px #454545;
+}
+.clock {
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  border: 12px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background: #cfcfcf;
+  box-shadow: -5px 5px 8px #3b3b3b;
+  position: relative;
+}
+.points > div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 180.5px;
+  left: 180.5px;
+  transform: translate(-50% -50%);
+  z-index: 2;
+}
+.points > div:nth-child(1) {
+  transform: rotate(30deg) translateY(-170px);
+}
+.points > div:nth-child(2) {
+  transform: rotate(60deg) translateY(-170px);
+}
+.points > div:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg) translateY(-170px);
+}
+.points > div:nth-child(4) {
+  transform: rotate(120deg) translateY(-170px);
+}
+.points > div:nth-child(5) {
+  transform: rotate(150deg) translateY(-170px);
+}
+.points > div:nth-child(6) {
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg) translateY(-170px);
+}
+.points > div:nth-child(7) {
+  transform: rotate(210deg) translateY(-170px);
+}
+.points > div:nth-child(8) {
+  transform: rotate(240deg) translateY(-170px);
+}
+.points > div:nth-child(9) {
+  width: 20px;
+  height: 20px;
+  transform: rotate(270deg) translateY(-170px);
+}
+.points > div:nth-child(10) {
+  transform: rotate(300deg) translateY(-170px);
+}
+.points > div:nth-child(11) {
+  transform: rotate(330deg) translateY(-170px);
+}
+.points > div:nth-child(12) {
+  width: 20px;
+  height: 20px;
+  transform: rotate(360deg) translateY(-170px);
+}
+.centre {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  z-index: 999;
+}
+.hand {
+  width: 25%;
+  height: 10px;
+  background: #000000;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  border-radius: 6px;
+  transform-origin: 100%;
+  transform: rotate(180deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+#minute {
+  background: #000000;
+  width: 35%;
+  height: 10px;
+}
+#second {
+  background: #ee791a;
+  width: 40%;
+  height: 3px;
+}
