@@ -7,7 +7,7 @@ body {
   background-color: rgb(0, 128, 255);
 }
 .container {
-  width: 500px;
+  width: 400px;
   margin: 50px auto;
   padding: 25px;
   border-radius: 10px 10px 10px 10px;
@@ -15,8 +15,8 @@ body {
   box-shadow: 6px 6px 20px #454545;
 }
 .clock {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   margin: 50px auto;
   border: 12px solid rgb(0, 0, 0);
   border-radius: 50%;
@@ -32,54 +32,54 @@ body {
   border-radius: 50%;
   background-color: black;
   position: absolute;
-  top: 180.5px;
-  left: 180.5px;
+  top: 47%;
+  left: 47%;
   transform: translate(-50% -50%);
   z-index: 2;
 }
 .points > div:nth-child(1) {
-  transform: rotate(30deg) translateY(-170px);
+  transform: rotate(30deg) translateY(-120px);
 }
 .points > div:nth-child(2) {
-  transform: rotate(60deg) translateY(-170px);
+  transform: rotate(60deg) translateY(-120px);
 }
 .points > div:nth-child(3) {
   width: 20px;
   height: 20px;
-  transform: rotate(90deg) translateY(-170px);
+  transform: rotate(90deg) translateY(-120px);
 }
 .points > div:nth-child(4) {
-  transform: rotate(120deg) translateY(-170px);
+  transform: rotate(120deg) translateY(-120px);
 }
 .points > div:nth-child(5) {
-  transform: rotate(150deg) translateY(-170px);
+  transform: rotate(150deg) translateY(-120px);
 }
 .points > div:nth-child(6) {
   width: 20px;
   height: 20px;
-  transform: rotate(180deg) translateY(-170px);
+  transform: rotate(180deg) translateY(-120px);
 }
 .points > div:nth-child(7) {
-  transform: rotate(210deg) translateY(-170px);
+  transform: rotate(210deg) translateY(-120px);
 }
 .points > div:nth-child(8) {
-  transform: rotate(240deg) translateY(-170px);
+  transform: rotate(240deg) translateY(-120px);
 }
 .points > div:nth-child(9) {
   width: 20px;
   height: 20px;
-  transform: rotate(270deg) translateY(-170px);
+  transform: rotate(270deg) translateY(-120px);
 }
 .points > div:nth-child(10) {
-  transform: rotate(300deg) translateY(-170px);
+  transform: rotate(300deg) translateY(-120px);
 }
 .points > div:nth-child(11) {
-  transform: rotate(330deg) translateY(-170px);
+  transform: rotate(330deg) translateY(-120px);
 }
 .points > div:nth-child(12) {
   width: 20px;
   height: 20px;
-  transform: rotate(360deg) translateY(-170px);
+  transform: rotate(360deg) translateY(-120px);
 }
 .centre {
   position: absolute;
